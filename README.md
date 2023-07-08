@@ -3,7 +3,7 @@ Website administrators and SEOers will often monitor backlink data to know which
 
 This package will help you scrape backlink data from Google Search Console with cookies.
 
-![GSC](images/thumb.jpg)
+![GSC](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/thumb.jpg?raw=true)
 ## Installation
 GSCLinks is available on PyPI. You can install it through pip:
 ```commandline
@@ -14,11 +14,11 @@ pip install gsclinks
 ### Get raw cookie
 **Method 1:** Open Chrome Developer Tool (F12), then go to Network tab, then visit Google Search Console, and then copy the Cookie's value in Request Header.
 
-![Cookie value in F12](images/cookie-value-f12.png)
+![Cookie value in F12](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/cookie-value-f12.png?raw=true)
 
 **Method 2:** Use [Cookie-Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm) extension on Chrome, visit Google Search Console, then open Cookie-Editor, and then export cookie as JSON.
 
-![Cookie value in Cookie-Editor](images/cookie-editor.png)
+![Cookie value in Cookie-Editor](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/cookie-editor.png?raw=true)
 
 Save the raw cookie in text file, such as `cookie.txt`.
 
