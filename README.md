@@ -55,6 +55,8 @@ You can get backlink data step by step to be able to intervene in the process. F
 # Get sites
 sites = console.get_sites()
 
+# Filter out the sites you want to continue to get data from.
+
 # Get all target pages
 all_target_pages = console.get_all_target_pages(sites=sites, sleep=5)
 
