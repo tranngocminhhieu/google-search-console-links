@@ -3,3 +3,4 @@
 - SearchConsoleLinks object
 1.0.1 to 1.0.3: Update README
 1.0.4: Change parameters of get_all_linking_pages, from all_target_pages to target_pages
+1.0.5: Delete self.cookies
