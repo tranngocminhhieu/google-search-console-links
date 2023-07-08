@@ -46,7 +46,7 @@ console = SearchConsoleLinks(cookies=cookies, resource_id=resource_id, user_numb
 ### Get backlink data
 If you want the entire backlink data in a simple way then use this method.
 ```python
-backlinks = console.get_all_links(sleep=10)
+all_linking_pages = console.get_all_links(sleep=10)
 # sleep: time to rest between each request sending (seconds).
 ```
 
@@ -62,3 +62,13 @@ all_target_pages = console.get_all_target_pages(sites=sites, sleep=5)
 all_linking_pages = console.get_all_linking_pages(all_target_pages=all_target_pages, sleep=5)
 ```
 
+Finally, you can convert the backlink data to a frame using Pandas for analysis, or export the backlink data to a CSV (Excel) file.
+
+```python
+import pandas as pd
+
+df = pd.DataFrame(all_linking_pages)
+df.to_csv('backlinks.csv', index=False)
+```
+
+*Thank you for reading!*
