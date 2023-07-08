@@ -7,7 +7,6 @@ from tqdm import tqdm
 
 class SearchConsoleLinks():
     def __init__(self, cookies, resource_id, user_number=None):
-        self.cookies = cookies
         self.resource_id = resource_id
 
         if user_number == None:
