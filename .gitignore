@@ -161,3 +161,4 @@ cython_debug/
 cookie.txt
 dist
 build
+test.ipynb
