@@ -6,7 +6,7 @@ Website administrators and SEOers will often monitor backlink data to know which
 
 This package will help you scrape backlink data from Google Search Console with cookies.
 
-![GSC](images/thumb.jpg?raw=true)
+![GSC](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/thumb.jpg?raw=true)
 
 ## Installation
 GSCLinks is available on PyPI. You can install it through pip:
