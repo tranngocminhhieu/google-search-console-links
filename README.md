@@ -61,7 +61,7 @@ sites = console.get_sites()
 all_target_pages = console.get_all_target_pages(sites=sites, sleep=5)
 
 # Get all linking pages
-all_linking_pages = console.get_all_linking_pages(all_target_pages=all_target_pages, sleep=5)
+all_linking_pages = console.get_all_linking_pages(target_pages=all_target_pages, sleep=5)
 ```
 
 Finally, you can convert the backlink data to a frame using Pandas for analysis, or export the backlink data to a CSV (Excel) file.

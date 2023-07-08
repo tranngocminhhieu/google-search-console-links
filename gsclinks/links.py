@@ -87,15 +87,15 @@ class SearchConsoleLinks():
             time.sleep(sleep)
         return all_target_pages
 
-    def get_all_linking_pages(self, all_target_pages, sleep=5):
+    def get_all_linking_pages(self, target_pages, sleep=5):
         '''
 
-        :param all_target_pages: a list of dict, it is the get_all_target_pages function result
+        :param target_pages: a list of dict, it is the get_all_target_pages function result
         :param sleep: time to rest between each request sending (seconds)
         :return: a list of dict
         '''
         all_linking_pages = []
-        for page in tqdm(all_target_pages, desc='Get linking pages'):
+        for page in tqdm(target_pages, desc='Get linking pages'):
             site = page['site']
             target_page = page['target_page']
             linking_pages = self.get_linking_pages(site=site, target_page=target_page)
