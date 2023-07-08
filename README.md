@@ -1,5 +1,6 @@
 # Google Search Console Links (GSCLinks)
-![PyPI](https://img.shields.io/pypi/v/gsclinks) ![PyPI - Downloads](https://img.shields.io/pypi/dm/gsclinks) ![GitHub](https://img.shields.io/github/license/tranngocminhhieu/google-search-console-links)
+![PyPI](https://img.shields.io/pypi/v/gsclinks?link=https%3A%2F%2Fpypi.org%2Fproject%2Fgsclinks%2F)
+ ![PyPI - Downloads](https://img.shields.io/pypi/dm/gsclinks) ![GitHub](https://img.shields.io/github/license/tranngocminhhieu/google-search-console-links)
 
 
 Website administrators and SEOers will often monitor backlink data to know which websites are linking to their websites. From there, they can filter out bad backlinks to send to Google Disavow Links. This will help their website not be affected by bad backlinks and keep a good position on Google Search.
