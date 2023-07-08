@@ -1,4 +1,7 @@
 # Google Search Console Links (GSCLinks)
+![PyPI](https://img.shields.io/pypi/v/gsclinks) ![PyPI - Downloads](https://img.shields.io/pypi/dm/gsclinks) ![GitHub](https://img.shields.io/github/license/tranngocminhhieu/google-search-console-links)
+
+
 Website administrators and SEOers will often monitor backlink data to know which websites are linking to their websites. From there, they can filter out bad backlinks to send to Google Disavow Links. This will help their website not be affected by bad backlinks and keep a good position on Google Search.
 
 This package will help you scrape backlink data from Google Search Console with cookies.
