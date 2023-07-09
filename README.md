@@ -1,5 +1,6 @@
 # Google Search Console Links (GSCLinks)
-[![PyPI](https://img.shields.io/pypi/v/gsclinks)](https://pypi.org/project/gsclinks/) [![GitHub](https://img.shields.io/github/license/tranngocminhhieu/google-search-console-links)](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/gsclinks)](https://pypi.org/project/gsclinks/) [![PyPI - Downloads](https://img.shields.io/pypi/dm/gsclinks)
+](https://pypi.org/project/gsclinks/) [![GitHub](https://img.shields.io/github/license/tranngocminhhieu/google-search-console-links)](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/LICENSE)
 
 ![GSC](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/thumb.jpg?raw=true)
 
