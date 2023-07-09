@@ -1,12 +1,15 @@
 # Google Search Console Links (GSCLinks)
 [![PyPI](https://img.shields.io/pypi/v/gsclinks)](https://pypi.org/project/gsclinks/) [![GitHub](https://img.shields.io/github/license/tranngocminhhieu/google-search-console-links)](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/LICENSE)
 
+![GSC](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/thumb.jpg?raw=true)
+
 
 Website administrators and SEOers will often monitor backlink data to know which websites are linking to their websites. From there, they can filter out bad backlinks to send to Google Disavow Links. This will help their website not be affected by bad backlinks and keep a good position on Google Search.
 
+
 This package will help you scrape backlink data from Google Search Console with cookies.
 
-![GSC](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/thumb.jpg?raw=true)
+![Example result](https://github.com/tranngocminhhieu/google-search-console-links/blob/main/images/example-result.png?raw=true)
 
 ## Installation
 GSCLinks is available on PyPI. You can install it through pip:
